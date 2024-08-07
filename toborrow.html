@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <style>
+        body {
+            background: rgb(213,140,172);
+            background: radial-gradient(circle, rgba(213,140,172,1) 0%, rgba(148,178,233,1) 69%);
+            overflow: hidden;
+        }
+
+        h1 {
+            color: #453483;
+            font-style: oblique;
+        }
+
+        /* Custom styles for centering the carousel with margins */
+        .carousel-container {
+            margin: 0 auto; /* Center the container horizontally */
+            max-width: 800px; /* Set maximum width for better responsiveness */
+        
+        }
+        
+        .border-primary {
+            border: 2px solid #007bff; /* Use the color of your choice */
+            padding: 15px; /* Adjust as needed */
+            display: inline-block; /* Ensures the border surrounds the text */
+            transition: border-color 0.3s ease; /* Adds a smooth transition effect */
+            margin-left: 20rem;
+           
+        }
+
+        .border-primary:hover {
+            border-color: #ce62c1; /* Change the color on hover */
+            background-color: #a349b3;
+        }
+   
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <div class="row"> 
+        <h1 align="center">How can I borrow?</h1>
+    </div>
+    <br><br>
+    <span class="border border-primary"> <p>
+        Here, we will explain how the operations work. You can benefit from our services by reading each slide carefully. <br>Choose your preferred service to derive maximum benefit.</p></span>
+  
+      
+    <!-- Centered carousel container with margins -->
+    <div class="row">
+        <div class="carousel-container">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/s3.png" class="d-block w-100" alt="Placeholder 1" height="550px">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Chose the category</h5>
+                            <p>take a look of the annonce that we have </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="images/s2.png"  class="d-block w-100" alt="Placeholder 2" height="550px" >
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Negotiation</h5>
+                            <p>After choosing you can choose specific article you contact with the owner for negotiation</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/s1.png" height="550px"  class="d-block w-100" alt="Placeholder 3"  >
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Confirmation</h5>
+                            <p>Confirm The result of negotiation if you gonna take the article or no</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

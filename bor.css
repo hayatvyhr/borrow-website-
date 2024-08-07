@@ -24,7 +24,10 @@ header {
   z-index: 999;
 }
 
-
+a {
+  text-decoration: none;
+  color: #DC5377;
+}
 .title {
   color: #DC5377;
   display: flex;
